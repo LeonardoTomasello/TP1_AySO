@@ -1,0 +1,87 @@
+cd
+ls 
+rm -rf repogit
+ls
+ssh-keygen -t ed25519
+ls
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+ls
+cd repogit
+git clone git@github.com:LeonardoTomasello/TP1_AySO.git
+pwd
+cd TP1_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release 
+rep HOME_URL /etc/os-release 
+man grep
+grep home_url /etc/os-release 
+grep -i home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git config -- globaluser "leonardo.tomasello12@gmail.com"
+git config -- global user "leonardo.tomasello12@gmail.com"
+git config --globaluser.email "leonardo.tomasello12@gmail.com"
+git config --global user:name "LeonardoTomasello"
+git config --global user.name "LeonardoTomasello"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git statis
+git status
+git push
+grep
+cat /proc/cpuinfo
+grep -i "model name" /proc/cpunifo | head -n1 >> datos_usuarios.txt
+grep -i "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+grep -i "model name" 
+grep -i "model name" /proc/cpuinfo
+cat datos_usuarios.txt
+git add.
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+cat <<EOF>> readme.md
+Alumno: Leonardo Tomasello
+División: 318 Turno: Noche
+EOF
+
+cat <<EOF>> README.md
+Alumno: Leonardo Tomasello
+División: 318 Turno: Noche
+EOF
+
+cat <<EOF>> README.md
+Alumno: Leonardo Tomasello
+División: 318 Turno: Noche
+EOF
+
+ls -l
+rm -rf readme.md
+rm -rf datos_usuarios.txt
+cat /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo/ | head -n1
+grep -i "model name" /proc/cpuinfo | head -n1
+grep -i "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add . 
+git commit --m "feat: Agregando información de CPU"
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+cat << EOF > README.md
+Alumno: Leonardo Tomasello
+División: 318 Turno: Noche
+EOF
+
+git add README.md
+git commit "ADD: Añadiendo Readme y datos de usuario"
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
